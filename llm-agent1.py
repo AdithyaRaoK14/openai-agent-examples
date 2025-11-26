@@ -3,15 +3,6 @@ import os
 import subprocess
 from openai import OpenAI
 
-"""
-activate the virtual environment:
-$ cd source ~/teaching/nov2025
-$ source ./bin/activate
-
-run this code:
-$ python3.14 agent1.py
-
-"""
 
 
 def client():
