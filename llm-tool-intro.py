@@ -1,20 +1,6 @@
 import os
 from openai import OpenAI
 
-"""
-activate the virtual environment:
-$ cd source ~/teaching/nov2025
-$ source ./bin/activate
-
-run this code:
-$ python3.14 agent0.py
-
-"""
-
-"""
-OpenAI Documentation: https://platform.openai.com/docs/api-reference/introduction
-"""
-
 
 def client():
     client = OpenAI(
